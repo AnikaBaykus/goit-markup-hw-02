@@ -1,70 +1,143 @@
-/* =====Общие===== */
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --page-color: #fff;
+  --footer-color: #2f303a;
+  --secondary-color: #f5f4fa;
+}
+
+/* ==========Общие Стили========== */
 .page {
-  background-color: #fff;
-  color: #212121;
+  background-color: var(--page-color);
+  color: var(--main-text-color);
 }
 
 .list {
   list-style: none;
 }
 
+.footer {
+  background-color: var(--footer-color);
+}
+
 /* ---Логотип ВебСтудии--- */
 .logo {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
+
 .logo .dark {
   color: #000000;
 }
+
 .logo .light {
-  color: #ffffff;
+  color: var(--page-color);
 }
+
 /* ---Навигация по сайту--- */
 .site-nav .link {
-  color: #212121;
+  color: var(--main-text-color);
 }
+
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
+
 /* ---Контакты--- */
 .contacts-header .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
+
 .contacts-header .link:hover,
 .contacts-header .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
-.contacts-footer .link {
-  color: rgba(255, 255, 255, 0.6);
-}
-.map .link {
-  color: #ffffff;
-}
-/* цвет заголовка h1 и основного фона #FFFFFF; */
-/* цвет заголовков h2, h3 основной #212121; */
-/* цвет параграфов дополнительный #757575; */
-/* цвет акцент #2196F3; */
-/* цвет для ссылок футера rgba(255, 255, 255, 0.6); */
-/* цвет акцент футера и фона заголовка #2F303A; */
-/* дополнительный цвет фона #F5F4FA; */
 
-/* =====/Общие===== */
-/* =====index.html===== */
+.contacts-footer .link {
+  color: var(--contacts-text-color);
+}
+
+.map .link {
+  color: var(--page-color);
+}
+
+/* ==========/Общие========== */
+/* ======== Стили index.html ======== */
 
 /* ---Главный заголовок--- */
 .caption {
-  color: #ffffff;
+  background-color: var(--footer-color);
 }
+
+.caption-text {
+  color: var(--page-color);
+}
+
+/* Главная кнопка */
+.caption .button {
+  color: var(--page-color);
+  background-color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
+}
+
 /* ---О нас--- */
 .about-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
+
 /* ---Наша команда--- */
-.team-profession {
-  color: #757575;
+.team {
+  background-color: var(--secondary-color);
 }
 
-/* =====/index.html===== */
-/* =====portfolio.html===== */
+.team-profession {
+  color: var(--secondary-text-color);
+}
 
-/* =====/portfolio.html===== */ ;
+/* ========/index.html======== */
+/* ======= Стили portfolio.html ====== */
+
+/* Портфолио кнопка */
+.product .button {
+  color: var(--main-text-color);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.product .button:hover,
+.product .button:focus {
+  color: var(--page-color);
+  background-color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
+}
+
+/* Портфолио продукты */
+.product .link {
+  color: var(--main-text-color);
+}
+
+.product-work {
+  color: var(--secondary-text-color);
+}
+
+/* Портфолио кнопка */
+.product .button {
+  color: var(--main-text-color);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.product .button:hover,
+.product .button:focus {
+  color: var(--page-color);
+  background-color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
+}
+
+/* =======/portfolio.html====== */ ;
