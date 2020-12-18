@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -17,25 +17,29 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="page">
     <!-- Шапка -->
     <header>
       <nav>
-        <a href="/"><span>Web</span><span>Studio</span> </a>
+        <a href="./index.html" class="logo">
+          <span>Web</span><span class="dark">Studio</span>
+        </a>
 
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="list site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="list contacts-header">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -43,16 +47,16 @@
       <!-- Портфолио -->
       <section>
         <h1>Портфолио</h1>
-        <ul>
+        <ul class="list">
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
           <li><button type="button">Приложения</button></li>
           <li><button type="button">Дизайн</button></li>
           <li><button type="button">Маркетинг</button></li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-0.jpg"
                 alt="Изображение сайта
@@ -65,7 +69,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-1.jpg"
                 alt="Постер баскетбольных комманд Новый Орлен и Голден Стар"
@@ -77,7 +81,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-2.jpg"
                 alt="Изображение логотипа ресторана Сифуд"
@@ -89,7 +93,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-3.jpg"
                 alt="Изображение наушников"
@@ -101,7 +105,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-4.jpg"
                 alt="Изображение двух коробок"
@@ -113,7 +117,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-5.jpg"
                 alt="Изображение компьютера Макинтош"
@@ -125,7 +129,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-6.jpg"
                 alt="Изображение журнала со статьёй Лимитед Эдишн"
@@ -137,7 +141,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-7.jpg"
                 alt="Изображение бирки для одежды ЛАБ"
@@ -149,7 +153,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="link">
               <img
                 src="./img/project-img-8.jpg"
                 alt="Изображение приложения на экране Макбука"
@@ -165,16 +169,22 @@
     </main>
     <!-- Подвал -->
     <footer>
-      <a href="/"><span>Web</span><span>Studio</span> </a>
+      <a href="./index.html" class="logo">
+        <span>Web</span><span class="light">Studio</span>
+      </a>
 
-      <address><a href="#"></a>г. Киев, пр-т Леси Украинки, 26</address>
+      <address class="map">
+        <a href="#" class="link">г. Киев, пр-т Леси Украинки, 26</a>
+      </address>
 
-      <ul>
+      <ul class="list contacts-footer">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </footer>

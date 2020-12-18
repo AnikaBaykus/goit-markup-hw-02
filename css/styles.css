@@ -1,0 +1,70 @@
+/* =====Общие===== */
+.page {
+  background-color: #fff;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ---Логотип ВебСтудии--- */
+.logo {
+  color: #2196f3;
+}
+.logo .dark {
+  color: #000000;
+}
+.logo .light {
+  color: #ffffff;
+}
+/* ---Навигация по сайту--- */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* ---Контакты--- */
+.contacts-header .link {
+  color: #757575;
+}
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+  color: #2196f3;
+}
+.contacts-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.map .link {
+  color: #ffffff;
+}
+/* цвет заголовка h1 и основного фона #FFFFFF; */
+/* цвет заголовков h2, h3 основной #212121; */
+/* цвет параграфов дополнительный #757575; */
+/* цвет акцент #2196F3; */
+/* цвет для ссылок футера rgba(255, 255, 255, 0.6); */
+/* цвет акцент футера и фона заголовка #2F303A; */
+/* дополнительный цвет фона #F5F4FA; */
+
+/* =====/Общие===== */
+/* =====index.html===== */
+
+/* ---Главный заголовок--- */
+.caption {
+  color: #ffffff;
+}
+/* ---О нас--- */
+.about-text {
+  color: #757575;
+}
+/* ---Наша команда--- */
+.team-profession {
+  color: #757575;
+}
+
+/* =====/index.html===== */
+/* =====portfolio.html===== */
+
+/* =====/portfolio.html===== */ ;
