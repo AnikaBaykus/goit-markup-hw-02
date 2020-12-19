@@ -1,3 +1,4 @@
+/* ==========Общие Стили========== */
 :root {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
@@ -8,7 +9,6 @@
   --secondary-color: #f5f4fa;
 }
 
-/* ==========Общие Стили========== */
 .page {
   background-color: var(--page-color);
   color: var(--main-text-color);
