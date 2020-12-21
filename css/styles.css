@@ -5,11 +5,12 @@
   --accent-text-color: #2196f3;
   --contacts-text-color: rgba(255, 255, 255, 0.6);
   --page-color: #fff;
+  --page-color-dark: #000000;
   --footer-color: #2f303a;
   --secondary-color: #f5f4fa;
 }
 
-.page {
+body {
   background-color: var(--page-color);
   color: var(--main-text-color);
 
@@ -38,7 +39,7 @@
 }
 
 .logo .dark {
-  color: #000000;
+  color: var(--page-color-dark);
 }
 
 .logo .light {
@@ -84,6 +85,11 @@
   text-decoration: none;
 }
 
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+  color: var(--accent-text-color);
+}
+
 .map .link {
   color: var(--page-color);
 
@@ -94,6 +100,12 @@
 
 .button {
   font-family: inherit;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .title {
